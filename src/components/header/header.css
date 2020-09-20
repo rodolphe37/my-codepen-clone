@@ -1,0 +1,209 @@
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .header__userName {
+  display: flex;
+  flex-direction: column;
+  color: white;
+} */
+
+.header__navBarWrapper {
+  width: 100%;
+  height: 80px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header__navBarWrapper > .header__leftLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__navBarWrapper > .header__leftLogo img {
+  width: 200px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.header__navBarWrapper > .header__centerContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  /* padding-right: 200px; */
+  height: 100%;
+  padding-left: 40px;
+}
+
+.header__centerContent > #explore {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 48px;
+  margin-top: 20px;
+  color: #ffff66;
+}
+
+.header__centerContent > .header__centerInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-bottom: 10px;
+}
+
+.header__centerInfo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white !important;
+}
+.header__centerInfo a {
+  color: white;
+  text-decoration: none;
+}
+
+.header__centerInfo > .header__pens {
+  display: flex;
+  text-align: center;
+  color: #666666;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+
+.header__centerInfo > .header__pens a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  padding-left: 10px;
+  font-size: 1.1em;
+}
+
+.header__rightContent > .header__rightContentButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 16px;
+  margin-left: 15px;
+  margin-right: 20px;
+  height: 50px;
+  grid-gap: 15px;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > .header__createButton > #header__borderChange {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > .header__createButton #header__borderChange, .header__loginButton button, .header__signUp button {
+  color: white;
+  background: #404040;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  transition: 0.4s;
+  outline: none;
+  height: 50px;
+  width: 120px;
+  transition: 0.7s;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > .header__createButton button > #header__createId {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 4.5px;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > .header__createButton > #header__borderChange i {
+  font-size: 1.6em;
+  color: rgb(0, 230, 138);
+  padding-left: 10px;
+}
+
+.header__createButton > #close-pop-down {
+  color: rgb(0, 230, 138);
+  font-size: 2em;
+  display: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: 118px;
+  bottom: 49px;
+  background: white;
+  width: 41px;
+  height: 48px;
+}
+
+.fa-window-close:before {
+  content: "\f410";
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > #header__searchLogo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > #header__searchLogo a {
+  text-decoration: none;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > #header__searchLogo i {
+  padding-top: 7px;
+  font-size: 2.5em;
+  color: #404040;
+  transition: 0.7s;
+}
+
+.header__rightContentButtons input[type="text"] {
+  outline: 2px solid transparent;
+}
+
+.header__navBarWrapper > .header__rightContent > .header__rightContentButtons > .header__createButton #header__borderChange:hover, .header__loginButton button:hover, .header__signUp button:hover {
+  background: white;
+  color: #404040;
+}
+
+.header__navBarWrapper > .header__rightContent > .right-content-buttons > .create-button #header__borderChange, .header__loginButton button, .header__signUp button {
+  color: white;
+  background: #404040;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  transition: 0.4s;
+  outline: none;
+  height: 50px;
+  width: 120px;
+  transition: 0.7s;
+}
+
+#spacer-60 {
+  height: 60px;
+  background: #262626;
+}
+
+#pop-down > #header__newPen, #header__newPost, #header__newProject {
+  display: none;
+  background: white;
+  font-size: 1.3em;
+  font-weight: 900;
+  position: relative;
+  width: 200px;
+  left: 1px;
+  bottom: 49px;
+  transition: 1s;
+}
+
+#pop-down > #header__newProject i {
+  color: #ffd11a;
+}

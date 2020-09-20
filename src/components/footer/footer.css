@@ -1,0 +1,47 @@
+.footer__wrapper {
+  width: 100%;
+  background-color: #404040;
+  box-shadow: 3px 24px 9px 25px rgba(0,0,0,0.96)
+}
+
+.footer__wrapper > .footer__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-top: 1.5px solid #666666;
+  border-bottom: 1.5px solid #666666;
+  padding-left: 40px;
+}
+
+.footer__wrapper > .footer__list a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.footer__wrapper > .footer__list > .footer__teams span {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+.footer__wrapper > .footer__list > .footer__education span {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+.footer__wrapper > .footer__list > .footer__privacy span {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}
+
+.footer__wrapper > .footer__list > .footer__writing span {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 2px;
+}

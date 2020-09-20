@@ -1,0 +1,10 @@
+
+.editorInput__topPanel {
+  background-color: hsl(225, 6%, 25%);
+}
+
+.editorInput__panel {
+  height: 50vh;
+  display: flex;
+  background-color: #353944;
+}
