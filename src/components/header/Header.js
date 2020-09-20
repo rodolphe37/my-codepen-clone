@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './header.css';
-import { useStateValue } from '../../StateProvider'
+//import { useStateValue } from '../../StateProvider'
 
 function Header() {
-  const [{ user }] = useStateValue();
+  //const [{ user }] = useStateValue();
 
   return (
     <>
